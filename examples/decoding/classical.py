@@ -32,11 +32,11 @@ try:
         XOR_LEFT,
         XOR_RIGHT,
     )
-    from examples.decoding.decoding import (
+    from decoding import (
         linear_code_constraint_sites,
         linear_code_prepare_message,
     )
-    from examples.decoding.decoding import (
+    from decoding import (
         apply_bitflip_bias,
         apply_constraints,
         decode_message,
